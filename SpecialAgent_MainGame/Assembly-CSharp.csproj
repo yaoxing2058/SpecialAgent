@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8de38542-b8d5-a8b8-cd2f-4eec4801c8d8}</ProjectGuid>
+    <ProjectGuid>{24c119f7-680e-f9ff-db11-5c06cb118802}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -383,13 +383,13 @@
         <HintPath>/Users/yaoxing2058/Documents/Unity/2021.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>/Users/yaoxing2058/Documents/Unity/2021.3.11f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
@@ -758,87 +758,87 @@
         <HintPath>/Users/yaoxing2058/Documents/Unity/2021.3.11f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Environments">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{225c54dd-4c52-d1ef-b23b-796661d9faed}</Project>
+      <Project>{141c4f18-0b2e-5408-fccf-0090d3c39808}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
