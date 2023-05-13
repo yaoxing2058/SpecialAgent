@@ -25,7 +25,7 @@ public class PauseGame : MonoBehaviour
         flashLight = lightObject.GetComponent<Light>();
         originalLight = flashLight.intensity;
         pauseScreen.SetActive(false);
-        interact = GameObject.Find("Special Agent").GetComponent<InteractionSystem>();
+        interact = GameObject.Find("Special Agent").GetComponent<InteractionSystem>(); // Make "Special Agent" to be more flexible in the future (i.e. search for player's name)
         playBGM = true;
     }
 

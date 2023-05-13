@@ -36,8 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" />
-     <Compile Include="Assets/JMO Assets/WarFX/Editor/CFX_SpawnSystemEditor.cs" />
+     <Compile Include="Assets/3D Resources/Special Effects/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" />
+     <Compile Include="Assets/3D Resources/Special Effects/WarFX/Editor/CFX_SpawnSystemEditor.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Users/yaoxing2058/Documents/Unity/2021.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
