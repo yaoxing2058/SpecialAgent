@@ -164,6 +164,7 @@ MonoBehaviour:
   - {fileID: 114988665660901670, guid: c7d35067fe5d2e4469d5a0604ab25b53, type: 3}
   - {fileID: 114988665660901670, guid: c20a1490b3839f940b472cfd58de747e, type: 3}
   - {fileID: 114988665660901670, guid: 336c85b99f19df14ebf2c1afb47d3e6b, type: 3}
+  - {fileID: 108719946011906536, guid: 432a766f23232463cbd659a5c88c18ab, type: 3}
   m_Assets: []
   m_CanQuickSave: 1
   m_QuickLoadAll: 1
@@ -172,14 +173,11 @@ MonoBehaviour:
   m_CanManualSave: 1
   m_ContinueFrom: 1
   m_QuicksaveThumbnail: 3
-  m_QsThumbnailTexture: {fileID: 2800000, guid: 74e0c4abcd77aad45b807507a315ce94,
-    type: 3}
+  m_QsThumbnailTexture: {fileID: 2800000, guid: 74e0c4abcd77aad45b807507a315ce94, type: 3}
   m_AutosaveThumbnail: 3
-  m_AsThumbnailTexture: {fileID: 2800000, guid: 74e0c4abcd77aad45b807507a315ce94,
-    type: 3}
+  m_AsThumbnailTexture: {fileID: 2800000, guid: 74e0c4abcd77aad45b807507a315ce94, type: 3}
   m_ManualSaveThumbnail: 2
-  m_MsThumbnailTexture: {fileID: 2800000, guid: 74e0c4abcd77aad45b807507a315ce94,
-    type: 3}
+  m_MsThumbnailTexture: {fileID: 2800000, guid: 74e0c4abcd77aad45b807507a315ce94, type: 3}
   m_ScreenshotSize: {x: 256, y: 128}
   m_ScreenshotCompression: 1
   m_UsingLinearRendering: 1

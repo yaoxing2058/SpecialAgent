@@ -106,6 +106,14 @@
      <Compile Include="Assets/3D Resources/Special Effects/WarFX/Demo/Assets/WFX_Demo_New.cs" />
      <Compile Include="Assets/Scripts/Weapons/Recoil.cs" />
      <Compile Include="Assets/Scripts/Enemies/Monster.cs" />
+     <Compile Include="Assets/animations/rpg animations/scripts/UI_sword.cs" />
+     <Compile Include="Assets/animations/rpg animations/scripts/WorldInteraction.cs" />
+     <Compile Include="Assets/animations/rpg animations/scripts/UI_no_weapon.cs" />
+     <Compile Include="Assets/animations/rpg animations/scripts/HidingMachineBehaviour.cs" />
+     <Compile Include="Assets/animations/rpg animations/scripts/WeaponHide.cs" />
+     <Compile Include="Assets/animations/rpg animations/scripts/ScrollSwitcher.cs" />
+     <Compile Include="Assets/animations/rpg animations/scripts/CameraController.cs" />
+     <Compile Include="Assets/animations/rpg animations/scripts/HiderInTime.cs" />
      <None Include="Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc" />
      <None Include="Assets/3D Resources/Special Effects/WarFX/Shaders/WFX_S Multiply Soft.shader" />
      <None Include="Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader" />
@@ -113,6 +121,7 @@
      <None Include="Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader" />
      <None Include="Assets/3D Resources/Special Effects/WarFX/_Effects/MuzzleFlashes/!MuzzleFlash Differences.txt" />
      <None Include="Assets/3D Resources/Special Effects/WarFX/Shaders/WFX_S Alpha-Specular TintColor.shader" />
+     <None Include="Assets/animations/RifleAnimsetPro/Animations/GetMoreAnimations.txt" />
      <None Include="Assets/3D Resources/Special Effects/WarFX/Shaders/WFX_S Add Scroll.shader" />
      <None Include="Assets/3D Resources/Special Effects/Cartoon FX Easy Editor/CartoonFX Easy Editor Readme.txt" />
      <None Include="Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader" />

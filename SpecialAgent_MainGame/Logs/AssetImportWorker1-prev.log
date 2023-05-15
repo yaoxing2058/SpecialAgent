@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49498
+54665
 Successfully changed project path to: /Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame
 /Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/yaoxing2058/Desktop/Special-Agent/S
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 158.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 161.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path /Users/yaoxing2058/Documents/Unity/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -71,98 +71,98 @@ Initialize mono
 Mono path[0] = '/Users/yaoxing2058/Documents/Unity/2021.3.11f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/yaoxing2058/Documents/Unity/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Users/yaoxing2058/Documents/Unity/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56223
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56805
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/yaoxing2058/Documents/Unity/2021.3.11f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Users/yaoxing2058/Documents/Unity/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Users/yaoxing2058/Documents/Unity/2021.3.11f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001714 seconds.
+Registered in 0.001674 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 156.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 147.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.951 seconds
+- Completed reload, in  0.921 seconds
 Domain Reload Profiling:
-	ReloadAssembly (952ms)
-		BeginReloadAssembly (74ms)
+	ReloadAssembly (922ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (710ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (707ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (153ms)
+			SetupTypeCache (172ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (448ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (420ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (157ms)
+				RefreshPlugins (147ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (218ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004347 seconds.
+Registered in 0.005059 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.270 seconds
+- Completed reload, in  3.160 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2273ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (3162ms)
+		BeginReloadAssembly (158ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (2017ms)
-			LoadAssemblies (84ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (2817ms)
+			LoadAssemblies (189ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (428ms)
+			SetupTypeCache (501ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (152ms)
-			SetupLoadedEditorAssemblies (1269ms)
+			RebuildScriptCaches (141ms)
+			SetupLoadedEditorAssemblies (1927ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (407ms)
-				ProcessInitializeOnLoadMethodAttributes (729ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (481ms)
+				ProcessInitializeOnLoadMethodAttributes (1332ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Launching external process: /Users/yaoxing2058/Documents/Unity/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5921 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22933 unused Assets / (4.3 MB). Loaded Objects now: 5864.
-Memory consumption went from 367.3 MB to 362.9 MB.
-Total: 17.442718 ms (FindLiveObjects: 2.275538 ms CreateObjectMapping: 1.691241 ms MarkObjects: 3.624950 ms  DeleteObjects: 9.849407 ms)
+Unloading 22933 unused Assets / (4.6 MB). Loaded Objects now: 5841.
+Memory consumption went from 288.7 MB to 284.1 MB.
+Total: 33.649708 ms (FindLiveObjects: 2.048436 ms CreateObjectMapping: 1.526565 ms MarkObjects: 6.708091 ms  DeleteObjects: 23.364766 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -176,21 +176,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 235.435628 seconds.
-  path: Assets/Characters/Special Agent/SpecialAgent.prefab
-  artifactKey: Guid(302a19a97c0f3482986e1302d5db1f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Special Agent/SpecialAgent.prefab using Guid(302a19a97c0f3482986e1302d5db1f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27589a0d6b1bd5ce18ef8bf2e71eeb5c') in 0.947007 seconds 
+  Time since last request: 24726.681700 seconds.
+  path: Assets/Scenes/Test.unity
+  artifactKey: Guid(0a9b338c159eb4bb4831c39f8e0b289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test.unity using Guid(0a9b338c159eb4bb4831c39f8e0b289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06978ec164f485c8fa32a35ee8e9752d') in 0.027439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Scenes/Project.unity
+  artifactKey: Guid(a975986bf040547e299cc03db71e26ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Project.unity using Guid(a975986bf040547e299cc03db71e26ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1128c331b643cd8c6c00375f84979c74') in 0.001041 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003945 seconds.
+Registered in 0.006171 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
@@ -222,6 +228,36 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Use
 
 (Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
 
+Projectile prefab must have IProjectile component attached (such as a BallisticProjectile): Projectile_GuidedMissile_DrunkenTargetingSystem
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.BallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs:49)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs Line: 49)
+
+Projectile prefab must have IProjectile component attached (such as a BallisticProjectile): Projectile_GuidedMissile_DrunkenTargetingSystem
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.BallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs:49)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs Line: 49)
+
 Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -266,452 +302,530 @@ System.Reflection.MethodBase:Invoke (object,object[])
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
 
 (Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
+
+Projectile prefab must have IProjectile component attached (such as a BallisticProjectile): Projectile_GuidedMissile_DrunkenTargetingSystem
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.BallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs:49)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs Line: 49)
+
+Projectile prefab must have IProjectile component attached (such as a BallisticProjectile): Projectile_GuidedMissile_DrunkenTargetingSystem
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.BallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs:49)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs Line: 49)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  8.505 seconds
+- Completed reload, in  8.908 seconds
 Domain Reload Profiling:
-	ReloadAssembly (8506ms)
-		BeginReloadAssembly (201ms)
+	ReloadAssembly (8909ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (87ms)
-		EndReloadAssembly (8195ms)
-			LoadAssemblies (144ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (8649ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (537ms)
+			SetupTypeCache (401ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (7377ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (7977ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (412ms)
-				ProcessInitializeOnLoadMethodAttributes (6867ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 5.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6962 Unused Serialized files (Serialized files now loaded: 3)
-Unloading 26 unused Assets / (24.5 KB). Loaded Objects now: 5882.
-Memory consumption went from 493.2 MB to 493.2 MB.
-Total: 10.207038 ms (FindLiveObjects: 0.740005 ms CreateObjectMapping: 1.032937 ms MarkObjects: 8.319831 ms  DeleteObjects: 0.112951 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004249 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-NeoFPS.ModularFirearms.SimpleBallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs:37)
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
-NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
-NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
-
-Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-NeoFPS.ModularFirearms.SimpleBallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs:37)
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
-NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
-NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
-
-Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-NeoFPS.ModularFirearms.SimpleBallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs:37)
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
-NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
-NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
-
-Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-NeoFPS.ModularFirearms.SimpleBallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs:37)
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
-NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
-NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
-
-Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-NeoFPS.ModularFirearms.SimpleBallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs:37)
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
-NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
-NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  6.439 seconds
-Domain Reload Profiling:
-	ReloadAssembly (6440ms)
-		BeginReloadAssembly (150ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (6191ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (495ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (5452ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (358ms)
-				ProcessInitializeOnLoadMethodAttributes (5001ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 6.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6962 Unused Serialized files (Serialized files now loaded: 3)
-Unloading 24 unused Assets / (23.8 KB). Loaded Objects now: 5886.
-Memory consumption went from 492.7 MB to 492.7 MB.
-Total: 8.428420 ms (FindLiveObjects: 0.451484 ms CreateObjectMapping: 0.474427 ms MarkObjects: 7.324194 ms  DeleteObjects: 0.175760 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4410.398465 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Actors/SecurityCamera_Wall.prefab
-  artifactKey: Guid(110e9c624128d4b41b38030cc681bfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Actors/SecurityCamera_Wall.prefab using Guid(110e9c624128d4b41b38030cc681bfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2472d98da9341592d05693e245b67489') in 0.119168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Actors/Turret_Ceiling.prefab
-  artifactKey: Guid(5532e9f0f56e83d4a99e3cd6116da90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Actors/Turret_Ceiling.prefab using Guid(5532e9f0f56e83d4a99e3cd6116da90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb90ba6ae36b5da88985f06c4ed26e0') in 0.178751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.955902 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/AmmoType_12gauge.asset
-  artifactKey: Guid(104208c344e2add44bd9efa7cf0204bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/AmmoType_12gauge.asset using Guid(104208c344e2add44bd9efa7cf0204bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5902c8d3e4e3348e82b771d64cc9a083') in 0.116801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003674 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/Inventory_Ammo40mm_1.prefab
-  artifactKey: Guid(9b2ca7106904cde41a75bc0b443978dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/Inventory_Ammo40mm_1.prefab using Guid(9b2ca7106904cde41a75bc0b443978dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e15e1381d0ff2151e48599e5e49a5f7') in 0.005721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/Pickup_Ammo357magnum_12.prefab
-  artifactKey: Guid(265df17a6a26486458b84739a1ac5c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/Pickup_Ammo357magnum_12.prefab using Guid(265df17a6a26486458b84739a1ac5c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a10436ce93efcc41d355d0598e8b1fe') in 0.024712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/Inventory_Ammo12gauge_8.prefab
-  artifactKey: Guid(7e1844af056ce75489f6861ad63c054a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/Inventory_Ammo12gauge_8.prefab using Guid(7e1844af056ce75489f6861ad63c054a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639651452eefd4a85489d6e33406c819') in 0.007296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/Inventory_Ammo357magnum_12.prefab
-  artifactKey: Guid(5c980cba8889f0843a626060b12d0bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/Inventory_Ammo357magnum_12.prefab using Guid(5c980cba8889f0843a626060b12d0bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87daea8917ca5b731450b90dc21ff0de') in 0.007142 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/Inventory_Ammo556mm_30.prefab
-  artifactKey: Guid(c60dc682cbd9dfa4b9764789e612122b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/Inventory_Ammo556mm_30.prefab using Guid(c60dc682cbd9dfa4b9764789e612122b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac47c81c370e96ca3c9969cea99968a') in 0.006288 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/Inventory_Ammo40mm_2.prefab
-  artifactKey: Guid(31e4dfeb91fd0ac46855f35a6d2caee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/Inventory_Ammo40mm_2.prefab using Guid(31e4dfeb91fd0ac46855f35a6d2caee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a85e6fdab8d3e6c408ebab9ea21fc01') in 0.008360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/AmmoType_556mm.asset
-  artifactKey: Guid(6bb76e133096f6a4e8a2c63fb876b6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/AmmoType_556mm.asset using Guid(6bb76e133096f6a4e8a2c63fb876b6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36c30c05612c222de21f298090e9313') in 0.002492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/Inventory_Ammo556mm_60.prefab
-  artifactKey: Guid(4e7829f40914c0f4a8fb1fc66df42120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/Inventory_Ammo556mm_60.prefab using Guid(4e7829f40914c0f4a8fb1fc66df42120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f9094279cd3d60e5ccdaeb4bea931b') in 0.006241 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/Pickup_Ammo12gauge_16.prefab
-  artifactKey: Guid(21cf6f4f9a99eed46a5b408fcd03639e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/Pickup_Ammo12gauge_16.prefab using Guid(21cf6f4f9a99eed46a5b408fcd03639e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c810ff03951577e140ecabcc5389089a') in 0.018682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/Inventory_Ammo762mm_7.prefab
-  artifactKey: Guid(c0a96f7c8f85c1a448675dca63db5b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/Inventory_Ammo762mm_7.prefab using Guid(c0a96f7c8f85c1a448675dca63db5b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bb253cbd4e32a3c14a5440da200323') in 0.006171 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/Pickup_Ammo762mm_14.prefab
-  artifactKey: Guid(b4e03f5b704e54c46a53c27047f53cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/Ammo/Pickup_Ammo762mm_14.prefab using Guid(b4e03f5b704e54c46a53c27047f53cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab6e190dfcdb3bb5c1740d3b0ff6db0') in 0.022144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.199156 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/StackedInventory/Firearm_GrenadeLauncher_Stacked.prefab
-  artifactKey: Guid(3a2e28336a8ab3d4bbf264caa8943613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/StackedInventory/Firearm_GrenadeLauncher_Stacked.prefab using Guid(3a2e28336a8ab3d4bbf264caa8943613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fca2b2f1d60b7806514ffb51bf9012') in 0.085949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/StackedInventory/WeaponPickup_AssaultRifle_Stacked.prefab
-  artifactKey: Guid(8a1639a1825f1d34e93861a3641c2753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/StackedInventory/WeaponPickup_AssaultRifle_Stacked.prefab using Guid(8a1639a1825f1d34e93861a3641c2753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5eca3dd90efd909b63f0d243958b5c5') in 0.051564 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/StackedInventory/MultiPickup_AmmoCrate_Stacked.prefab
-  artifactKey: Guid(328a8d36e35535249a9102996748965b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/StackedInventory/MultiPickup_AmmoCrate_Stacked.prefab using Guid(328a8d36e35535249a9102996748965b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7658452c755c63fa189b68837e6e43') in 0.072487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/StackedInventory/WeaponPickup_Baton_Stacked.prefab
-  artifactKey: Guid(591bc32f2af0578429e45dcb2716d8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/StackedInventory/WeaponPickup_Baton_Stacked.prefab using Guid(591bc32f2af0578429e45dcb2716d8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a006dca1276b817a81eeb14f03bf76') in 0.048589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/StackedInventory/Melee_Baton_Stacked.prefab
-  artifactKey: Guid(175de25c84815014db074744da90f746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/StackedInventory/Melee_Baton_Stacked.prefab using Guid(175de25c84815014db074744da90f746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ad22ac0b6970f4a29a3b7ba5e30190') in 0.039982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/StackedInventory/WeaponPickup_Shotgun_Stacked.prefab
-  artifactKey: Guid(303ef9dd05b9f0a4ea08aeb0e5cdffd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/StackedInventory/WeaponPickup_Shotgun_Stacked.prefab using Guid(303ef9dd05b9f0a4ea08aeb0e5cdffd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089c1079c2e03e3ef7fe384406731ac4') in 0.060816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/StackedInventory/Firearm_Revolver_Stacked.prefab
-  artifactKey: Guid(2a8e8ef499c0c624fbc19ccda8df4ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/StackedInventory/Firearm_Revolver_Stacked.prefab using Guid(2a8e8ef499c0c624fbc19ccda8df4ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70139b2c7f5913cef2c4f28b34e55049') in 0.055764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/StackedInventory/WeaponPickup_HandGrenade_Stacked.prefab
-  artifactKey: Guid(a69483be368ad9d48a7f4067fe4d8b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/StackedInventory/WeaponPickup_HandGrenade_Stacked.prefab using Guid(a69483be368ad9d48a7f4067fe4d8b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c191c0b5b5258a54d1fc80d68a03ca2') in 0.048147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/StackedInventory/Thrown_FragGrenade_Stacked.prefab
-  artifactKey: Guid(3883f19df8c740b4a9a9ddbdb1cc557e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NeoFPS/Samples/Shared/Prefabs/Weapons/StackedInventory/Thrown_FragGrenade_Stacked.prefab using Guid(3883f19df8c740b4a9a9ddbdb1cc557e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9721aba0fed7113c658eb2dcbd0ca9d5') in 0.053260 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003709 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-NeoFPS.ModularFirearms.SimpleBallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs:37)
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
-NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
-NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
-
-Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-NeoFPS.ModularFirearms.SimpleBallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs:37)
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
-NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
-NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
-
-Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-NeoFPS.ModularFirearms.SimpleBallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs:37)
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
-NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
-NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
-
-Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-NeoFPS.ModularFirearms.SimpleBallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs:37)
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
-NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
-NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
-
-Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-NeoFPS.ModularFirearms.SimpleBallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs:37)
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
-NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
-NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  8.419 seconds
-Domain Reload Profiling:
-	ReloadAssembly (8421ms)
-		BeginReloadAssembly (212ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (8046ms)
-			LoadAssemblies (264ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (443ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (7202ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (397ms)
-				ProcessInitializeOnLoadMethodAttributes (6678ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (385ms)
+				ProcessInitializeOnLoadMethodAttributes (7505ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 5.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6962 Unused Serialized files (Serialized files now loaded: 3)
-Unloading 26 unused Assets / (23.5 KB). Loaded Objects now: 5890.
-Memory consumption went from 0.56 GB to 0.56 GB.
-Total: 9.688121 ms (FindLiveObjects: 0.969099 ms CreateObjectMapping: 0.635316 ms MarkObjects: 7.981000 ms  DeleteObjects: 0.099965 ms)
+Unloading 6966 Unused Serialized files (Serialized files now loaded: 2)
+Unloading 24 unused Assets / (22.8 KB). Loaded Objects now: 5850.
+Memory consumption went from 323.6 MB to 323.6 MB.
+Total: 6.012863 ms (FindLiveObjects: 0.479264 ms CreateObjectMapping: 0.264501 ms MarkObjects: 5.222601 ms  DeleteObjects: 0.044653 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 679.234258 seconds.
+  path: Assets/NeoFPS/Resources/FpsManager_Input.asset
+  artifactKey: Guid(f6a34e07303b83347a61ba84457c0bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NeoFPS/Resources/FpsManager_Input.asset using Guid(f6a34e07303b83347a61ba84457c0bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc48579ab624b09b82e0460223cb7302') in 0.216932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/NeoFPS/Resources/FpsManager_Surfaces.asset
+  artifactKey: Guid(2ebe7a0ff390e4546825f99308254c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NeoFPS/Resources/FpsManager_Surfaces.asset using Guid(2ebe7a0ff390e4546825f99308254c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb40432edbe3502cf12a649444731a2d') in 0.096703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/NeoFPS/Resources/FpsSettings_Graphics.asset
+  artifactKey: Guid(d08b92422b2496f4f93c998c9038ce0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NeoFPS/Resources/FpsSettings_Graphics.asset using Guid(d08b92422b2496f4f93c998c9038ce0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fe73991cbcadbf56d9896913ecf727') in 0.006986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/NeoFPS/Resources/FpsSettings_Input.asset
+  artifactKey: Guid(c8b402b8ea19b884383a574618514554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NeoFPS/Resources/FpsSettings_Input.asset using Guid(c8b402b8ea19b884383a574618514554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3f28a471edc55dc74d26218ef735bc') in 0.009716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/NeoFPS/Resources/FpsSettings_KeyBindings.asset
+  artifactKey: Guid(b24b4efd746fa1b4f9f52535c351c108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NeoFPS/Resources/FpsSettings_KeyBindings.asset using Guid(b24b4efd746fa1b4f9f52535c351c108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43b433d445b55de356aab9096d17436') in 0.008501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/NeoFPS/Resources/FpsSettings_Audio.asset
+  artifactKey: Guid(3f423efb18a6fa143bb9c122014a192e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NeoFPS/Resources/FpsSettings_Audio.asset using Guid(3f423efb18a6fa143bb9c122014a192e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4169576e259e19bc5cc3f513be3ad769') in 0.005464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/NeoFPS/Resources/FpsManager_Pooling.asset
+  artifactKey: Guid(f6c3c1af30d6de647bba00b55a48c3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NeoFPS/Resources/FpsManager_Pooling.asset using Guid(f6c3c1af30d6de647bba00b55a48c3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d26cd163c1f12691ae00017b12b819d') in 0.102276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/NeoFPS/Resources/FpsSettings_Gamepad.asset
+  artifactKey: Guid(775ace70918f474448d8a21dda8231ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NeoFPS/Resources/FpsSettings_Gamepad.asset using Guid(775ace70918f474448d8a21dda8231ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6ff0afc217732bbb65ebcfe6133e82') in 0.007815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/NeoFPS/Resources/FpsSettings_Gameplay.asset
+  artifactKey: Guid(7af9875e89d130d4f9005c9a36c2068e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NeoFPS/Resources/FpsSettings_Gameplay.asset using Guid(7af9875e89d130d4f9005c9a36c2068e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502b9bc0001ce39eb0745ab45a9fffb4') in 0.007984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/NeoFPS/Resources/PostProcessLayerSettings.asset
+  artifactKey: Guid(10f09984192df894e86bc116c7752d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NeoFPS/Resources/PostProcessLayerSettings.asset using Guid(10f09984192df894e86bc116c7752d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2f80079bfdd5afa151be46c5fd5d6e') in 0.006830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/NeoFPS/Resources/FpsManager_NeoSceneManager.asset
+  artifactKey: Guid(8f829999408191f418d48b800f6414e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NeoFPS/Resources/FpsManager_NeoSceneManager.asset using Guid(8f829999408191f418d48b800f6414e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd8d1ad50517b2140650356fa877d95') in 0.010761 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004728 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.SimpleBallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs:37)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
+
+Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.SimpleBallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs:37)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
+
+Projectile prefab must have IProjectile component attached (such as a BallisticProjectile): Projectile_GuidedMissile_DrunkenTargetingSystem
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.BallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs:49)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs Line: 49)
+
+Projectile prefab must have IProjectile component attached (such as a BallisticProjectile): Projectile_GuidedMissile_DrunkenTargetingSystem
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.BallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs:49)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs Line: 49)
+
+Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.SimpleBallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs:37)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
+
+Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.SimpleBallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs:37)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
+
+Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.SimpleBallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs:37)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
+
+Projectile prefab must have IProjectile component attached (such as a BallisticProjectile): Projectile_GuidedMissile_DrunkenTargetingSystem
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.BallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs:49)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs Line: 49)
+
+Projectile prefab must have IProjectile component attached (such as a BallisticProjectile): Projectile_GuidedMissile_DrunkenTargetingSystem
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.BallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs:49)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs Line: 49)
+
+Mono: successfully reloaded assembly
+- Completed reload, in 12.094 seconds
+Domain Reload Profiling:
+	ReloadAssembly (12098ms)
+		BeginReloadAssembly (619ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (268ms)
+		EndReloadAssembly (11250ms)
+			LoadAssemblies (368ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (736ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (126ms)
+			SetupLoadedEditorAssemblies (10039ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (579ms)
+				ProcessInitializeOnLoadMethodAttributes (9304ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 6.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6966 Unused Serialized files (Serialized files now loaded: 2)
+Unloading 24 unused Assets / (22.8 KB). Loaded Objects now: 5855.
+Memory consumption went from 404.0 MB to 404.0 MB.
+Total: 11.639759 ms (FindLiveObjects: 0.668801 ms CreateObjectMapping: 1.431298 ms MarkObjects: 9.446436 ms  DeleteObjects: 0.090854 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003787 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yaoxing2058/Desktop/Special-Agent/SpecialAgent/SpecialAgent_MainGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.SimpleBallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs:37)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
+
+Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.SimpleBallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs:37)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
+
+Projectile prefab must have IProjectile component attached (such as a BallisticProjectile): Projectile_GuidedMissile_DrunkenTargetingSystem
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.BallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs:49)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs Line: 49)
+
+Projectile prefab must have IProjectile component attached (such as a BallisticProjectile): Projectile_GuidedMissile_DrunkenTargetingSystem
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.BallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs:49)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs Line: 49)
+
+Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.SimpleBallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs:37)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
+
+Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.SimpleBallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs:37)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
+
+Projectile prefab must have ArtilleryProjectile component attached: Projectile_40mmGrenade
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.SimpleBallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs:37)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/SimpleBallisticShooter.cs Line: 37)
+
+Projectile prefab must have IProjectile component attached (such as a BallisticProjectile): Projectile_GuidedMissile_DrunkenTargetingSystem
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.BallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs:49)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs Line: 49)
+
+Projectile prefab must have IProjectile component attached (such as a BallisticProjectile): Projectile_GuidedMissile_DrunkenTargetingSystem
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NeoFPS.ModularFirearms.BallisticShooter:OnValidate () (at Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs:49)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckPrefabs () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:48)
+NeoSaveGames.Serialization.NeoSerializedGameObjectProcessor:CheckSerializationKeys () (at Assets/NeoFPS/Core/NeoSaveGames/Editor/Serialization/NeoSerializedGameObjectProcessor.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/NeoFPS/Core/Weapons/ModularFirearm/Shooters/BallisticShooter.cs Line: 49)
+
+Mono: successfully reloaded assembly
+- Completed reload, in 10.346 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10348ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (9880ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (702ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (123ms)
+			SetupLoadedEditorAssemblies (8740ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (592ms)
+				ProcessInitializeOnLoadMethodAttributes (7983ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 7.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6966 Unused Serialized files (Serialized files now loaded: 2)
+Unloading 24 unused Assets / (22.8 KB). Loaded Objects now: 5859.
+Memory consumption went from 405.4 MB to 405.4 MB.
+Total: 11.429035 ms (FindLiveObjects: 1.113133 ms CreateObjectMapping: 2.419974 ms MarkObjects: 7.751075 ms  DeleteObjects: 0.142189 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
