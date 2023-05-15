@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoFPS", "NeoFPS.csproj", "{243d26ea-7f4c-543e-027f-4e815c332eea}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{24c119f7-680e-f9ff-db11-5c06cb118802}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{141c4f18-0b2e-5408-fccf-0090d3c39808}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoSaveGames", "NeoSaveGames.csproj", "{05bd401c-034c-5176-995a-feff98da0a2b}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoFPS.Managers", "NeoFPS.Managers.csproj", "{3c60c0f1-405c-ef12-8c56-90c0851340c6}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{fc66f0fa-592c-543b-c784-fd086a6032ba}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoSaveGames.Editor", "NeoSaveGames.Editor.csproj", "{74c7e879-3095-54fd-cd6d-3cb4a63352e8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{57001090-c899-2c88-4e7f-9021ad75a34e}"
 EndProject
@@ -14,12 +22,20 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{243d26ea-7f4c-543e-027f-4e815c332eea}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243d26ea-7f4c-543e-027f-4e815c332eea}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24c119f7-680e-f9ff-db11-5c06cb118802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{24c119f7-680e-f9ff-db11-5c06cb118802}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{141c4f18-0b2e-5408-fccf-0090d3c39808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{141c4f18-0b2e-5408-fccf-0090d3c39808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05bd401c-034c-5176-995a-feff98da0a2b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05bd401c-034c-5176-995a-feff98da0a2b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3c60c0f1-405c-ef12-8c56-90c0851340c6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3c60c0f1-405c-ef12-8c56-90c0851340c6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{fc66f0fa-592c-543b-c784-fd086a6032ba}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{fc66f0fa-592c-543b-c784-fd086a6032ba}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74c7e879-3095-54fd-cd6d-3cb4a63352e8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74c7e879-3095-54fd-cd6d-3cb4a63352e8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57001090-c899-2c88-4e7f-9021ad75a34e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{57001090-c899-2c88-4e7f-9021ad75a34e}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection

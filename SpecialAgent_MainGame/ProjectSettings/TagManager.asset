@@ -4,28 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Pistol
-  - Assault Rifle
-  - Minigun
-  - Knife
-  - Bullet
-  - Manager
-  - Zombie
-  - Score
-  - Full Auto
-  - Semi Auto
-  - Weapon Holder
-  - Automatic
-  - Paused
-  - Reload
-  - Empty Gun
-  - Ammo Count
-  - Pistol Functions
-  - Assault Rifle Functions
-  - Interactable
-  - Crosshair
-  - Pickable
-  - Activatable
+  - AI
   layers:
   - Default
   - TransparentFX
@@ -35,25 +14,25 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - PostProcessingVolumes
+  - EnvironmentRough
+  - EnvironmentDetail
+  - MovingPlatforms
+  - DynamicProps
+  - CharacterControllers
+  - CharacterFirstPerson
+  - CharacterExternal
+  - CharacterPhysics
+  - CharacterRagdoll
+  - CharacterNonColliding
+  - WieldablesFirstPerson
+  - WieldablesExternal
+  - TriggerZones
+  - InteractiveObjects
+  - Doors
+  - SmallDynamicObjects
+  - Effects
+  - AiVisibility
   - 
   - 
   - 
